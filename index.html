@@ -1,164 +1,288 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>l4d</title>
+    <!-- LINKS FONTS. -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <!-- LINK BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- LINK CSS ORIGINAL -->
     <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
     <header>
         <h1><a href="./index.html">El Virus Imparable</a></h1>
         <img src="./img/logogoood.png" alt="" class="img-logo">
-<nav>
-   
-    <ul class="navbar">
-        <li><a href="./pages/charger.html">Charger</a></li>    
-        <li><a href="./pages/hunter.html">Hunter</a></li>    
-        <li><a href="./pages/tank.html">Tank</a></li></li>    
-        <li><a href="./pages/boomer.html">Boomer</a></li>    
-    </ul>
-</nav>
-    
-</header>
- 
-   
-   <main>
-    <section class="grid-layout">
-       
-            <img class="img1" src="./img/chargerinicio.jfif" alt="">
-            <img class="img2" src="img/hunterinicio.jfif" alt="">
-            <img class="img3" src="./img/spitterinicio.jfif" alt="">
-            <img class="img4" src="./img/witchinicio.png" alt="">
-            <img class="img5" src="./img/tankinicio.png" alt="">
-            <img class="img6" src="./img/jockeyinicio.png" alt="">
-            <img class="img7" src="./img/boomerinicio.png" alt="">
-            <img class="img8" src="./img/smookerinicio.png" alt="">
-        
+        <nav>
 
-    </section>
-    <article">
-        
+            <ul class="navbar">
+                <li><a href="./pages/charger.html">Charger</a></li>
+                <li><a href="./pages/hunter.html">Hunter</a></li>
+                <li><a href="./pages/tank.html">Tank</a></li>
+                </li>
+                <li><a href="./pages/boomer.html">Boomer</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+
+    <main>
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/bannerleft.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/tankbanner.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/spitterbanner.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-        <div class="info-virus">
-            <h2>¿Que es la <span style="color: rgb(44, 133, 44);">Gripe Verde?</span></h2>
-            <p>La gripe verde tambien conocida como Green Fluu es un virus ficticio que desempeña un papel crucial en la saga de videojuegos Left 4 Dead </p>
-            <h2>Sintomas de la infeccion:</h2>
-            <p><span style="color: rgb(139, 8, 8);">°Piel pálida</p> <br>
 
-            <p><span style="color: rgb(202, 9, 9);">°Ojos amarillentos</span></p> <br>
+        <article>
 
-            <p><span style="color: rgb(202, 14, 14);">°Agresividad</span></p> <br>
+            </div>
+            <div class="info-virus">
+                <h2>¿Que es la <span style="color: rgb(44, 133, 44);">Gripe Verde?</span></h2>
+                <p>La gripe verde tambien conocida como Green Fluu es un virus ficticio que desempeña un papel crucial
+                    en la saga de videojuegos Left 4 Dead </p>
+                <h2>Sintomas de la infeccion:</h2>
+            </div>
 
-            <p><span style="color: rgb(196, 16, 16);">°Perdida de la razón</span></p><br>
+            <div class="sintomas-container">
+                <div class="sintomas-infeccion">
+                    <p><span>Piel pálida</p>
+                </div>
+
+                <div class="sintomas-infeccion">
+                    <p><span>Ojos amarillentos</span></p>
+                </div>
+
+                <div class="sintomas-infeccion">
+                    <p><span>Agresividad</span></p>
+                </div>
+
+                <div class="sintomas-infeccion">
+                    <p><span>Perdida de la razón</span></p>
+                </div>
+
+            </div>
 
             <h2>Factores de transmicion:
             </h2>
             <h3>Via Aérea:</h3>
-           <p>Se cree que la infección se propaga por el aire, similar a una gripe común. Esto podría ocurrir a través de estornudos, saliva y otros fluidos corporales.</p> <br>
-           <h3>Por contacto:</h3>
-           <p>Al haber contacto con un infectado como un golpe recibido por uno, es probable que se transmita, siendo esta la razón por la cual los infectados golpean a los supervivientes intentando "contagiarlos".</p>
-           <div> <br> 
-            <h2>¿Que son los "Carriers"?</h2>
-                <p>De todos los infectados existentes, resalta uno que es diferente a todos. Este no tiene piel pálida ni mutaciones en su apariencia física; sin embargo, es el más peligroso de toda la población contagiada. También llamados carriers o incorrectamente inmunes, son personas que fueron infectadas por el virus de la gripe verde y no sufrieron sus síntomas, por lo que a simple vista no se diferencias de un paciente sano. Dado que los infectados atacan a civiles no contagiados y portadores por igual, es difícil no confundirlos. Se sabe que, luego de que la CEDA fuese revelada de la lucha contra el virus, los militares comenzaron a buscar portadores para estudiarlos y crear una posible cura.</p>
-                
+            <p>Se cree que la infección se propaga por el aire, similar a una gripe común. Esto podría ocurrir a través
+                de estornudos, saliva y otros fluidos corporales.</p>
+            <h3>Por contacto:</h3>
+            <p>Al haber contacto con un infectado como un golpe recibido por uno, es probable que se transmita, siendo
+                esta la razón por la cual los infectados golpean a los supervivientes intentando "contagiarlos".</p>
+            <div>
+                <h2>¿Que son los "Carriers"?</h2>
+                <p>De todos los infectados existentes, resalta uno que es diferente a todos. Este no tiene piel pálida
+                    ni mutaciones en su apariencia física; sin embargo, es el más peligroso de toda la población
+                    contagiada. También llamados carriers o incorrectamente inmunes, son personas que fueron infectadas
+                    por el virus de la gripe verde y no sufrieron sus síntomas, por lo que a simple vista no se
+                    diferencias de un paciente sano. Dado que los infectados atacan a civiles no contagiados y
+                    portadores por igual, es difícil no confundirlos. Se sabe que, luego de que la CEDA fuese revelada
+                    de la lucha contra el virus, los militares comenzaron a buscar portadores para estudiarlos y crear
+                    una posible cura.</p>
+
                 <h2>Posible razones de ataque</h2>
-                <p>Los infectados, sin importar si son comúnes o especiales atacan a los Carriers y a personas no infectadas por razones desconocidas. Se especula que puede ser porque no están infectados, y el virus así los ataca. Sin embargo esta teoría se hecha abajo debido a que en algunas ocasiones se pueden ver infectados peleando entre ellos en el mapa, incluso en raras ocasiones los infectados especiales llegan matar a infectados comúnes.
+                <p>Los infectados, sin importar si son comúnes o especiales atacan a los Carriers y a personas no
+                    infectadas por razones desconocidas. Se especula que puede ser porque no están infectados, y el
+                    virus así los ataca. Sin embargo esta teoría se hecha abajo debido a que en algunas ocasiones se
+                    pueden ver infectados peleando entre ellos en el mapa, incluso en raras ocasiones los infectados
+                    especiales llegan matar a infectados comúnes.
 
-                    También se especula que por el propio virus, los infectados comúnes y los infectados especiales atacan a los Carriers y a los no infectados porque los ven como una amenaza.</p> <br>
-                   
-           </div>
-           <h1 class="infectados-raros">INFECTADOS CARACTERISTICOS</h1>
-           <section class="section-infectados">
-               <div class="div-infectados"> <img src="./img/AgenteCeda.png" alt=""> <br> <br> <br>
-                <img src="./img/Antidisturbios.png" class=""> <br><br><br>
-                <img src="./img/JimmyGibs.png" alt=""> <br><br><br>
-                <img src="./img/Payaso.png" alt=""> <br><br><br>
-                <img src="./img/ObreroDeConstrucion.png" alt=""> <br><br><br>
-                <img src="./img/SupervivienteCaido.png" alt=""> <br><br><br>
-                <img src="./img/Embarrado.png" alt="">
-            </div>
-              
-            <div class="informacion-infectados"> <h3> ignífugos: Son agentes de la CEDA que fueron infectados con el virus mientras portaban los trajes hazmat que (supuestamente) los iban a proteger contra la infección. Dichos trajes son a prueba de fuego, haciendo inútil toda estrategia que use este elemento para aniquilarlos. Cuando mueren, se puede escuchar como su traje se desinfla, además de que a veces sueltan un frasco con bilis del Boomer, seguramente para llevarla a científicos e inventar una posible cura. 
-                <p><span style="color: gold;">°Son inmunes al fuego y no se envuelven en llamas cuando pasan por el fuego.</span> <br>  <span style="color: gold;">°La munición incendiaria no les afecta; simplemente rebota contra ellos sin causar daño.</span></p> <br> <br> <br> <br> <br>
-
-                Antidisturbios: Eran miembros de una firma privada de seguridad contratada por la CEDA para mantener el orden en los centros de evacuación en Nueva Orleans, pero que también cayeron víctimas de la infección. Llevan puesto cascos y una armadura antibalas que los protegen de cualquier arma convencional en todas partes, a excepción de la espalda. Al morir pueden soltar porras de policía.
-                    <p><span style="color: rgb(26, 26, 139);">°Son inmunes a las balas y a los ataques frontales.</span></p>
-                    <p><span style="color: rgb(26, 26, 139);">°Son vulnerables a las motosierras y a las explosiones.</span></p> <br><br><br><br><br>
-                    Jimmy Gibs JR: Es un famoso piloto de carreras que se presentó en la ciudad de Savannah para dar una exhibición de su coche y fue infectado durante el brote. 
-                    <p><span style="color: rgb(165, 132, 42);">°Es inmune al fuego y puede cegar a los supervivientes con aceite de motor. </span></p> 
-                    <p><span style="color: rgb(165, 132, 42);">°No le afectan las bombas de bilis ni las bombas caseras.</span></p>
-                    <p><span style="color: rgb(165, 132, 42);">°Aunque tiene mucha salud, puede morir instantáneamente de un disparo a la cabeza o un ataque cuerpo a cuerpo. </span></p> <br><br><br><br><br>
-
-
-                    Payasos: Los payasos que trabajaban en el parque de atracciones Whispering Oaks se habían convertido en peculiares infectados. Usan unos enormes zapatos que emiten un ruido al caminar, lo que atrae a más infectados 
-                    <p><span style="color: red;">°Los payasos tienen maquillaje reflectante en la cara, lo que los hace fácilmente distinguibles. </span></p> <br><br><br><br><br> <br><br>
-
-                Obreros de construcción: Son empleados de una compañía de construcción que también fueron atacados por el virus. Llevan puesto unos cascos de construcción, un chaleco reflectante y orejeras industriales 
-
-                <p><span style="color: greenyellow;">°Son inmunes a la atracción de las bombas caseras. A diferencia de otros infectados, no se ven afectados por el sonido de las bombas caseras.</span></p>
-                <p><span style="color: greenyellow;">°Tienen resistencia a ataques con armas romas.</span></p>
-                <p><span style="color: greenyellow;">°Aunque sus cascos les impiden oír el pitido de las bombas caseras, aún así reaccionan a los sonidos de la motosierra al perseguir al superviviente que la lleve.</span></p> <br><br><br><br><br>
-            
-                Superviviente caído: Fueron supervivientes que intentaron protegerse de la infección preparándose bien, pero finalmente cayeron al no ser inmunes al virus. Su equipamiento balístico los hace resistentes por tiempos cortos a la munición estándar, huyen cuando son atacados y sueltan varios objetos útiles para el jugador tras morir.
-
-                <p><span style="color: cornsilk;">°Es inmune al fuego de las molotovs, a pesar de llevar una en su correa de municiones.</span></p>
-                <p><span style="color: cornsilk;">°Posiblemente lleve un chaleco antibalas o una armadura bajo su ropa, ya que su resistencia es increíble para ser un simple infectado.</span></p>
-                <p><span style="color: cornsilk;">°Huirá apenas reciba el más mínimo daño.</span></p> <br><br><br>
-            
-                Embarrado: Son infectados que se parecen a los infectados comunes excepto que están cubiertos de barro y lo usan como camuflaje. Corren a cuatro patas, aunque se tambalean sobre los pies cuando los empujan. Además, se ponen erguidos cuando están ociosos. Su reptar rápido les permite correr a más velocidad que los infectados comunes y el agua no les opone resistencia.
-                <p><span style="color: darkturquoise;">°El agua no les opone resistencia, lo que les permite moverse rápidamente incluso en zonas acuáticas.</span></p>
-                <p><span style="color: darkturquoise;">°Pueden nublarte la vista con su barro al golpearte.</span></p>
+                    También se especula que por el propio virus, los infectados comúnes y los infectados especiales
+                    atacan a los Carriers y a los no infectados porque los ven como una amenaza.</p> <br>
+                </div>
+                </article>    
                 
-                
+                <h1 class="infectados-raros">INFECTADOS CARACTERISTICOS</h1>
+         
+            <section class="section-infectados">
+                <div class="div-infectados">
+                    <img src="./img/AgenteCeda.png" alt="">
+                </div>
+
+                    <div class="ignifugos-z"><h2>Ignifugos:</h2></div>
+                    <div class="info-ignifugos">
+                        <p class="p-yellow">Son agentes de la CEDA que fueron infectados con el virus mientras portaban los
+                            trajes hazmat que (supuestamente) los iban a proteger contra la infección. Dichos trajes son a
+                            prueba de fuego, haciendo inútil toda estrategia que use este elemento para aniquilarlos. Cuando
+                            mueren, se puede escuchar como su traje se desinfla, además de que a veces sueltan un frasco con
+                            bilis del Boomer, seguramente para llevarla a científicos e inventar una posible cura.</p>
+                        <p class="p-yellow">Son inmunes al fuego y no se envuelven en llamas cuando pasan por
+                            el fuego.</p>
+                        <p class="p-yellow">La munición incendiaria no les afecta;
+                            simplemente rebota contra ellos sin causar daño.</p>   
+                               
+                        </div>
+                      
+                    </section> 
+                    <section class="section-infectados2">
+                        <div class="div-infectados2">
+                            <img src="./img/Antidisturbios.png" alt=""> 
+                        </div>
+                        <div class="antidisturbios-z"><h2>Antidisturbios:</h2></div> <br>
+                        <div class="info-antidisturbios">
+                            <p>Eran miembros de una firma privada de seguridad contratada por la CEDA para
+                        mantener el orden en los centros de evacuación en Nueva Orleans, pero que también cayeron
+                        víctimas de la infección. Llevan puesto cascos y una armadura antibalas que los protegen de
+                        cualquier arma convencional en todas partes, a excepción de la espalda. Al morir pueden soltar
+                        porras de policía. </p>
+
+                        <p> <span style="color: blue;">Son inmunes a las balas y a los ataques
+                            frontales.</span></p>
+
+                            <p><span style="color: blue;">Son vulnerables a las motosierras y a las
+                                explosiones.</span></p>
+                        </div>
+                    </section>
+                    <section class="section-infectados3">
+                        <div class="div-infectados3">
+                            <img src="./img/JimmyGibs.png" alt="">
+                        </div>
+                        <div class="Jimmy-Gibs"-z><h2>Jimmy Gibs JR:</h2></div>
+                        <div class="info-jimmy">
+                            <p>Es un famoso piloto de carreras que se presentó en la ciudad de Savannah para dar
+                                una exhibición de su coche y fue infectado durante el brote.</p>
+                                <p><span style="color: coral;">Es inmune al fuego y puede cegar a los
+                                    supervivientes con aceite de motor.</span></p>
+                                <p><span style="color: coral;">No le afectan las bombas de bilis ni las bombas
+                                    caseras.</span></p>
+                                <p><span style="color: coral;">Aunque tiene mucha salud, puede morir
+                                    instantáneamente de un disparo a la cabeza o un ataque cuerpo a cuerpo.</span></p>
+                            </div>
+                        </section>
+                        <section class="section-infectados4">
+                            <div class="div-infectados4">
+                                <img src="./img/Payaso.png" alt="">
+                            </div>
+                            <div class="payaso-z"><h2>Payaso:</h2></div>
+                            <div class="info-payaso">
+                                <p> Los payasos que trabajaban en el parque de atracciones Whispering Oaks se habían
+                                    convertido en peculiares infectados. Usan unos enormes zapatos que emiten un ruido al caminar,
+                                    lo que atrae a más infectados</p>
+                                <p><span style="color: red;">Los payasos tienen maquillaje reflectante en la cara, lo que los
+                                    hace fácilmente distinguibles. </span></p>    
+                            </div>
+                        </section> <br><br><br><br><br><br>
+                        <section class="section-infectados5">
+                            <div class="div-infectados5">
+                                <img src="./img/ObreroDeConstrucion.png" alt="">
+                            </div>
+                            <div class="obrero-z"><h2>Obrero de costrucción:</h2></div>
+                            <div class="info-obrero"> 
+                                <p>Son empleados de una compañía de construcción que también fueron
+                                atacados por el virus. Llevan puesto unos cascos de construcción, un chaleco reflectante y
+                                orejeras industriales.
+                                </p>
+                                <p><span style="color: greenyellow;">Son inmunes a la atracción de las bombas caseras. A
+                                    diferencia de otros infectados, no se ven afectados por el sonido de las bombas
+                                    caseras.</span></p> 
+                                    <p><span style="color: greenyellow;">Tienen resistencia a ataques con armas romas.</span></p>
+                                    
+                        <p><span style="color: greenyellow;">Aunque sus cascos les impiden oír el pitido de las bombas
+                            caseras, aún así reaccionan a los sonidos de la motosierra al perseguir al superviviente
+                            que la lleve.</span></p>
+                            </div>
+                               
+                            
+                        </section>
+                        <section class="section-infectados6">
+                            <div class="div-infectados6">
+                                <img src="./img/SupervivienteCaido.png" alt="">
+                            </div>
+                            <div class="superviviente-z"><h2>Superviviente Caído:</h2></div>
+                            <div class="info-caido">
+                                <p>Fueron supervivientes que intentaron protegerse de la infección
+                                    preparándose bien, pero finalmente cayeron al no ser inmunes al virus. Su equipamiento balístico
+                                    los hace resistentes por tiempos cortos a la munición estándar, huyen cuando son atacados y
+                                    sueltan varios objetos útiles para el jugador tras morir.
+                                </p>
+                                <p><span style="color: cornsilk;">Es inmune al fuego de las molotovs, a pesar de llevar una en
+                                    su correa de municiones.</span></p>
+                                <p><span style="color: cornsilk;">Posiblemente lleve un chaleco antibalas o una armadura bajo
+                                        su ropa, ya que su resistencia es increíble para ser un simple infectado.</span></p>
+                                        <p><span style="color: cornsilk;">Huirá apenas reciba el más mínimo daño.</span></p>
+
+                            </div>
+                        </section>
+                        <section class="section-infectados7">
+                            <div class="div-infectados7">
+                                <img src="./img/Embarrado.png" alt="">
+                            </div>
+                            <div class="embarrado-z"><h2>Embarrado:</h2></div>
+                            <div class="info-embarrado">
+                                <p>Son infectados que se parecen a los infectados comunes excepto que están cubiertos de
+                                    barro y lo usan como camuflaje. Corren a cuatro patas, aunque se tambalean sobre los pies cuando
+                                    los empujan. Además, se ponen erguidos cuando están ociosos. Su reptar rápido les permite correr
+                                    a más velocidad que los infectados comunes y el agua no les opone resistencia.</p>
+                                    <p><span style="color: darkturquoise;">°El agua no les opone resistencia, lo que les permite
+                                        moverse rápidamente incluso en zonas acuáticas.</span></p>
+                                    <p><span style="color: darkturquoise;">°Pueden nublarte la vista con su barro al
+                                            golpearte.</span></p>
+                    
+                            </div>
+                        </section>
+                    
+
+                 
 
 
 
+        </article>
 
-
-                </h3>
-                
-
-            
-            </div> 
-            
-               
-            
-           
-            
-            
-            
-            
-
-            
-        </section>
-      
-    </article>
+    </main>
+    <footer>
     
-   </main>
-   <footer>
-   
-    <div class="footer-l4d">
-        <p>© 2024 Todos los derechos reservados</p>
-        <img src="./img/letrasl4d.png" alt="">
+    <div class="footer-logo">
+      <img src="./img/letrasl4d.png" alt="">
     </div>
-</footer>
-
-   
- 
+    <div class="footer-links">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </div>
+    <div class="footer-social">
+      <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+      <a href="https://twitter.com/" target="_blank">Twitter</a>
+      <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+    </div>
         
-     
-   
-    
-    
-    
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+
+          
+    </footer>
+
 
 </body>
+
 </html>
