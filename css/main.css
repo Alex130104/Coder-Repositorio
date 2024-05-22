@@ -1,10 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.main__index .sintomas-container .sintomas-infeccion p {
+  margin: 0;
+  color: red;
+  border: 1px solid red;
+  padding: 10px;
+  background-color: rgb(59, 59, 59);
+  border-radius: 5px;
+}
+
 header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   padding: 10px;
   background-color: black;
-  align-items: center;
   flex-wrap: wrap;
 }
 header h1 a {
@@ -138,14 +163,6 @@ header nav ul li a {
   padding: 20px auto;
   background-color: rgb(0, 0, 0);
   border-radius: 10px;
-}
-.main__index .sintomas-container .sintomas-infeccion p {
-  margin: 0;
-  color: red;
-  border: 1px solid red;
-  padding: 10px;
-  background-color: rgb(59, 59, 59);
-  border-radius: 5px;
 }
 .main__index .infectados-raros {
   text-align: center;
@@ -453,6 +470,16 @@ header nav ul li a {
   color: red;
 }
 
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
 footer .footer-logo {
   grid-column: 1/2;
 }
@@ -463,6 +490,11 @@ footer .footer-links {
   grid-column: 2/3;
   display: flex;
   justify-content: center;
+}
+footer .footer-links a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
 }
 footer .footer-social {
   grid-column: 3/4;

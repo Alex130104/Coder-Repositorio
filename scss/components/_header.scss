@@ -1,10 +1,7 @@
 header{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    @include flex(row, space-between, center);
     padding: 10px;
     background-color: black;
-    align-items: center;
     flex-wrap: wrap;
     h1 a{
         text-align: left;
