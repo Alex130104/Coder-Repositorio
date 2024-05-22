@@ -1,0 +1,24 @@
+.main_tank{
+    .info-tank {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .tank-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .tank-atack {
+        display: flex;
+        flex-direction: column;
+    }
+    .p-green {
+        color: green;
+    
+    }
+    .p-red {
+        color: red;
+    }
+         
+}

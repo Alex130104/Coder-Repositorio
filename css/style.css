@@ -15,15 +15,13 @@
     font-style: normal;
   }
   
-h1 a{
-    
+/* h1 a{
     text-align: left;
     color: white;
     font-family: "Bebas Neue", sans-serif;
     padding-left: 20px;
     
 }
-
 
 header{
     display: flex;
@@ -34,9 +32,6 @@ header{
     align-items: center;
     flex-wrap: wrap;
     
-
-
-
 }
 .img-logo{
     width: 90px;
@@ -50,27 +45,19 @@ header{
     gap: 30px;
     padding: 0 20px 0 0;
     margin: 0;
-    
-    
+
 }
 .navbar li a{
     color:rgb(172, 236, 62);
     text-decoration: none;
     font-family: "Roboto";
-    
-
-    
-    
-
-}
+} */
 /*termina header*/
 /*comienza main*/
-main{
+/* .main__index {
     background-color:rgb(0, 0, 0);
     color:white;
     font-family: "Roboto" ;
-    
-   
 }
 
 .carousel-inner {
@@ -109,9 +96,9 @@ main{
     padding-top: 40px;
     color: rgba(0, 128, 0, 0.616);
     
-}
+} */
 /*IGNIFUGOS*/
-.section-infectados{
+/* .section-infectados{
     display: flex;
     width: 100%;
 }
@@ -126,10 +113,10 @@ main{
 }
 .info-ignifugos{
     padding-top: 10px;
-}
+} */
  /**ANTIDISTURBIOS*/
 
-.section-infectados2{
+/* .section-infectados2{
     display: flex;
     width: 100%;
  
@@ -146,11 +133,11 @@ main{
 
 .info-antidisturbios{
     padding-top: 10px;
-}
+} */
 
 /*JIMMY GIBS JR*/
 
-.section-infectados3{
+/* .section-infectados3{
     display: flex;
     width: 100%;
  
@@ -168,10 +155,10 @@ main{
 .info-jimmy{
     padding-top: 10px;
     text-align: left;
-   }
+   } */
 
 /*Payaso*/
-.section-infectados4{
+/* .section-infectados4{
     display: flex;
     width: 100%;
  
@@ -188,10 +175,10 @@ main{
 
 .info-payaso{
     padding-top: 10px;
-}
+} */
 
 /*Obrero de construcción*/
-.section-infectados5{
+/* .section-infectados5{
     display: flex;
     width: 100%;
   
@@ -208,9 +195,9 @@ main{
 .info-obrero{
     padding-top: 50px;
    
-}
+} */
 /*Superviviente caído*/
-.section-infectados6{
+/* .section-infectados6{
     display: flex;
     width: 100%;
  
@@ -227,10 +214,10 @@ main{
 
 .info-caido{
     padding-top: 50px;
-}
+} */
 /*EMBARRADO*/
 
-.section-infectados7{
+/* .section-infectados7{
     display: flex;
     width: 100%;
 }
@@ -245,10 +232,11 @@ main{
 }
 .info-embarrado{
     padding-top: 10px;
-}
+} */
 
 /*INFECTADOS ESPECIALES*/
 /*CHARGER*/
+/*
 .char-info{
     width: 100%;
     background-color: rgb(0, 0, 0);
@@ -295,6 +283,7 @@ main{
 }
  
 /*HUNTER*/
+/*
 .info-hunter {
     display: flex;
     flex-direction: row;
@@ -330,6 +319,7 @@ main{
     height: 300px;
 }
 /*BOOMER*/
+/*
 .info-boomer{
     display: flex;
     width: 100%;
@@ -373,7 +363,7 @@ main{
         }
     
     /*TANK*/
- 
+ /*
 .info-tank {
     display: flex;
     justify-content: center;
@@ -400,10 +390,6 @@ main{
     color: red;
 }
 
-.p-yellow {
-    color: yellow;
-}
-    
 
 
 

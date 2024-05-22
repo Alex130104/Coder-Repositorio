@@ -1,0 +1,35 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: black;
+    align-items: center;
+    flex-wrap: wrap;
+    h1 a{
+        text-align: left;
+        color: white;
+        font-family: "Bebas Neue", sans-serif;
+        padding-left: 20px;
+    }
+    img {
+        width: 90px;
+        height: 70px;
+    }
+    nav {
+        ul {
+            display: flex;
+            list-style: none;
+            gap: 30px;
+            padding: 0 20px 0 0;
+            margin: 0; 
+            li {
+                a {
+                    color:rgb(172, 236, 62);
+                    text-decoration: none;
+                    font-family: "Roboto";
+                }
+            }      
+        }
+    }
+}

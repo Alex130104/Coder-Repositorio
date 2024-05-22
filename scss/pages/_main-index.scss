@@ -1,0 +1,181 @@
+.main__index {
+    background-color:rgb(0, 0, 0);
+    color:white;
+    font-family: "Roboto" ;
+    .carousel-inner {
+        background-color: black;
+    }
+    .carousel-item img {
+        width: 100%;
+        height: 70vh;
+        object-fit: cover;
+    }
+    .info-virus{
+
+    }
+    .sintomas-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 50px 0;
+        flex-wrap: wrap;
+        .sintomas-infeccion {
+            padding: 20px auto;
+            background-color: rgb(0, 0, 0);
+            border-radius: 10px;
+        }
+        .sintomas-infeccion p {
+            margin: 0;
+            color: red;
+            border: 1px solid red;
+            padding: 10px;
+            background-color: rgb(59, 59, 59);
+            border-radius: 5px;
+        }
+    }
+    .infectados-raros{
+        text-align: center;
+        padding-top: 40px;
+        color: rgba(0, 128, 0, 0.616);
+        
+    }
+    .section-infectados{
+        display: flex;
+        width: 100%;
+        .div-infectados{
+            width: 50%;
+            height: 320px;
+            img{
+                width: 100%;
+                height: 220px;
+                mask-image: linear-gradient(rgb(0, 0, 0) 0%, transparent);
+            }
+        }
+        .info-ignifugos{
+            padding-top: 10px;
+            .p-yellow {
+                color: yellow;
+            }
+        }
+
+    }
+
+    .section-infectados2{
+        display: flex;
+        width: 100%;
+        .div-infectados2{
+            width: 50%;
+            height: 320px;
+            img{
+                width: 100%;
+                height: 220px;
+                mask-image: linear-gradient(rgb(0, 0, 0) 0%, transparent);
+            }
+            
+        }
+        info-antidisturbios{
+            padding-top: 10px;
+        }
+    }
+    .section-infectados3{
+        display: flex;
+        width: 100%;
+    
+        .div-infectados3{
+            width: 50%;
+            height: 320px;
+            img{
+                width: 40%;
+                height: 200px;
+                mask-image: linear-gradient(rgb(0, 0, 0) 0%, transparent);
+            }    
+    }
+    .info-jimmy{
+        padding-top: 10px;
+        text-align: left;
+       }
+       
+    
+}
+.section-infectados4{
+    display: flex;
+    width: 100%;
+
+  .div-infectados4{
+    width: 50%;
+    height: 320px;
+    img{
+        width: 100%;
+        height: 220px;
+        mask-image: linear-gradient(rgb(0, 0, 0) 0%, transparent);
+    }
+}
+.info-payaso{
+    padding-top: 10px;
+}
+.p-red {
+    color: red;
+}
+
+}
+.section-infectados5{
+    display: flex;
+    width: 100%;
+    
+    .div-infectados5{
+        width: 50%;
+        height: 420px;
+        img{
+            width: 60%;
+            height: 220px;
+            mask-image: linear-gradient(rgb(0, 0, 0) 0%, transparent);
+        }
+    }
+}
+.info-obrero{
+    padding-top: 50px;
+   
+}
+.p-green {
+    color: green;
+
+}
+.section-infectados6{
+    display: flex;
+    width: 100%;
+    .div-infectados6{
+        width: 50%;
+        height: 320px;
+        img{
+            width: 90%;
+            height: 220px;
+            mask-image: linear-gradient(rgb(0, 0, 0) 0%, transparent);
+        }
+        
+    }
+    .info-caido{
+        padding-top: 50px;
+    }
+}
+.section-infectados7{
+    display: flex;
+    width: 100%;
+    .div-infectados7{
+        width: 50%;
+        height: 320px;
+    }    
+    img{
+        width: 100%;
+        height: 220px;
+        mask-image: linear-gradient(rgb(0, 0, 0) 0%, transparent);
+    }
+    .info-embarrado{
+        padding-top: 10px;
+    }
+}
+
+
+
+
+
+}
