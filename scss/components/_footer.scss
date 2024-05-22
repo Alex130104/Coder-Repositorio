@@ -1,0 +1,27 @@
+footer{
+    .footer-logo {
+        grid-column: 1 / 2;
+        img{
+            width: 100%;
+            
+          }
+      }
+      .footer-links {
+        grid-column: 2 / 3;
+        display: flex;
+        justify-content: center;
+        
+      }
+      .footer-social {
+        grid-column: 3 / 4;
+        display: flex;
+        justify-content: flex-end;
+        a {
+            color: #fff;
+            text-decoration: none;
+            margin-right: 10px;
+          }
+      }
+      
+      
+}

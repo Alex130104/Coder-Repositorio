@@ -460,11 +460,11 @@ footer {
 
 
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
 
     /* TANK HTML*/
 
-    .info-tank {
+    /* .info-tank {
         display: flex;
         flex-direction: column;
         text-align: center;
@@ -474,11 +474,11 @@ footer {
         display: flex;
         flex-direction: column;
         text-align: center;
-    }
+    } */ 
 
     /* HUNTER HTML*/
 
-    .info-hunter {
+    /* .info-hunter {
         display: flex;
         flex-direction: column;
         text-align: center;
@@ -488,7 +488,7 @@ footer {
         display: flex;
         flex-direction: column;
         text-align: center;
-    }
+    } */
 
 
     .footer-links {
@@ -497,6 +497,6 @@ footer {
 
 
     /* LISTO LOS RESPONSIVE*/
-}
+
     
 

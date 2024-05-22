@@ -46,7 +46,54 @@
         align-items: center;
         flex-direction: column;
 }
+.info-tank {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
+
+.tank-section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.char-info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.section-charhabilidades {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.info-boomer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.section-boomer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.info-hunter {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.section-hunter {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+}
+
 
 
 

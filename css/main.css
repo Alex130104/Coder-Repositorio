@@ -30,6 +30,90 @@ header nav ul li a {
   font-family: "Roboto";
 }
 
+@media (max-width: 768px) {
+  .section-infectados {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .section-infectados2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .section-infectados3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .section-infectados4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .section-infectados5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .section-infectados6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .section-infectados7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .info-tank {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .tank-section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .char-info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .section-charhabilidades {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .info-boomer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .section-boomer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .info-hunter {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .section-hunter {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}
 .main__index {
   background-color: rgb(0, 0, 0);
   color: white;
@@ -191,49 +275,204 @@ header nav ul li a {
   padding-top: 10px;
 }
 
-@media (max-width: 768px) {
-  .section-infectados {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  .section-infectados2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  .section-infectados3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  .section-infectados4 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  .section-infectados5 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  .section-infectados6 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  .section-infectados7 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
+.main_charger .char-info {
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+}
+.main_charger .char-info .div-char {
+  width: 100%;
+  height: 320px;
+}
+.main_charger .char-info .div-char img {
+  width: 100%;
+  height: 70%;
+}
+.main_charger .char-info .Aspecto-char {
+  font-family: "Roboto";
+  text-align: center;
+}
+.main_charger .char-info h2 {
+  color: white;
+}
+.main_charger .section-charhabilidades {
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+}
+.main_charger .section-charhabilidades .div-habilidadeschar {
+  width: 100%;
+  height: 320px;
+}
+.main_charger .section-charhabilidades .div-habilidadeschar img {
+  width: 80%;
+  height: 60%;
+}
+.main_charger .section-charhabilidades .char-titulo {
+  text-align: center;
+  font-family: "Roboto";
+}
+.main_charger .section-charhabilidades .char-titulo h2 {
+  color: white;
+}
+.main_charger .section-charhabilidades .char-titulo .p-red {
+  color: red;
+}
+
+.main_boomer .info-boomer {
+  display: flex;
+  width: 100%;
+  background-color: black;
+  padding-top: 30px;
+  font-family: "Roboto";
+}
+.main_boomer .info-boomer .div-boomer {
+  width: 100%;
+}
+.main_boomer .info-boomer .div-boomer img {
+  width: 320px;
+  height: 200px;
+}
+.main_boomer .info-boomer .boomer-aspecto {
+  text-align: center;
+  top: 10px;
+  font-family: "Roboto";
+}
+.main_boomer .info-boomer h2 {
+  color: white;
+}
+.main_boomer .info-boomer .p-turquesa {
+  color: darkturquoise;
+}
+.main_boomer .section-boomer {
+  display: flex;
+  width: 100%;
+  background-color: black;
+  padding-top: 30px;
+  font-family: "Roboto";
+}
+.main_boomer .section-boomer .boomer-atac {
+  width: 100%;
+  height: 200px;
+}
+.main_boomer .section-boomer .boomer-atac img {
+  width: 90%;
+  height: 200px;
+}
+.main_boomer .section-boomer .div-habilidadesboomer {
+  text-align: center;
+}
+.main_boomer .section-boomer h2 {
+  color: white;
+}
+.main_boomer .section-boomer .p-red {
+  color: red;
+}
+
+.main_hunter {
+  background-color: black;
+}
+.main_hunter .info-hunter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main_hunter .info-hunter .div-hunter {
+  display: flex;
+  flex-direction: column;
+}
+.main_hunter .info-hunter .div-hunter h2 {
+  color: white;
+}
+.main_hunter .info-hunter .div-hunter img {
+  width: 30vw;
+  height: 300px;
+  object-fit: cover;
+}
+.main_hunter .info-hunter .aspecto-hunter .p-yellow {
+  color: yellow;
+  font-family: "Roboto";
+}
+.main_hunter .section-hunter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.main_hunter .section-hunter .hunter-atack {
+  display: flex;
+  flex-direction: column;
+}
+.main_hunter .section-hunter .hunter-atack h2 {
+  color: white;
+}
+.main_hunter .section-hunter .hunter-atack img {
+  width: 30vw;
+  height: 300px;
+}
+.main_hunter .hunter-habilidades {
+  font-family: "Roboto";
+}
+.main_hunter .hunter-habilidades .p-red {
+  color: red;
+}
+
+.main_tank {
+  background-color: black;
+}
+.main_tank .info-tank {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main_tank .info-tank .div-tank h2 {
+  color: white;
+}
+.main_tank .info-tank .aspecto-tank {
+  font-family: "Roboto";
+}
+.main_tank .info-tank .aspecto-tank .p-green {
+  color: green;
+}
+.main_tank .tank-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main_tank .tank-section .tank-atack {
+  display: flex;
+  flex-direction: column;
+}
+.main_tank .tank-section .tank-atack h2 {
+  color: white;
+}
+.main_tank .tank-section .tank-habilidades {
+  font-family: "Roboto";
+}
+.main_tank .tank-section .tank-habilidades .p-red {
+  color: red;
+}
+
+footer .footer-logo {
+  grid-column: 1/2;
+}
+footer .footer-logo img {
+  width: 100%;
+}
+footer .footer-links {
+  grid-column: 2/3;
+  display: flex;
+  justify-content: center;
+}
+footer .footer-social {
+  grid-column: 3/4;
+  display: flex;
+  justify-content: flex-end;
+}
+footer .footer-social a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
 }
 
 /*# sourceMappingURL=main.css.map */

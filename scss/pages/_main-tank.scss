@@ -1,24 +1,43 @@
 .main_tank{
+    background-color: black;
     .info-tank {
         display: flex;
         justify-content: center;
         align-items: center;
+     .div-tank{
+        h2{
+            color: white;
+        }
+    
+     }
+     .aspecto-tank{
+        .p-green {
+            color: green;
+        
+        }
+       font-family: "Roboto"; 
+     }
     }
     .tank-section {
         display: flex;
         justify-content: center;
         align-items: center;
+        .tank-atack {
+            display: flex;
+            flex-direction: column;
+            h2{
+                color: white;
+            }
+      
+        }
+        .tank-habilidades{
+            .p-red{
+                color:red;
+            }
+            font-family: "Roboto";
+        }
     }
-    .tank-atack {
-        display: flex;
-        flex-direction: column;
-    }
-    .p-green {
-        color: green;
-    
-    }
-    .p-red {
-        color: red;
-    }
-         
+  
+   
+   
 }

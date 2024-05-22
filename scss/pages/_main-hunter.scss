@@ -1,34 +1,52 @@
 .main_hunter{
- 
+    background-color: black;
     .info-hunter {
         display: flex;
-        flex-direction: row;
         align-items: center;
         justify-content: center;
-        
+        .div-hunter {
+            display: flex;
+            flex-direction: column;
+            h2 {
+                color: $color-texto;
+            }
+            img {
+                width: 30vw;
+                height: 300px;
+                object-fit: cover;
+            } 
+        }
+
+        .aspecto-hunter {
+            .p-yellow{
+                color: yellow;
+                font-family: "Roboto";
+            }
+        }
     }
-    .div-hunter {
-        display: flex;
-        flex-direction: column;
-        img {
-            width: 30vw;
-            height: 300px;
-            object-fit: cover;
-        }  
-    }
+
     .section-hunter {
         display: flex;
         justify-content: center;
         align-items: center;
         margin-top: 20px;
+        .hunter-atack {
+            display: flex;
+            flex-direction: column;
+            h2{
+                color: white;
+            }
+            img {
+                width: 30vw;
+                height: 300px;
+                }
+            } 
     }
-    .hunter-atack {
-        display: flex;
-        flex-direction: column;
-        img {
-            width: 30vw;
-            height: 300px;
+    .hunter-habilidades{
+        .p-red{
+            color: red;
         }
-    }  
-    
-}
+        font-family: "Roboto";
+
+    }
+    }

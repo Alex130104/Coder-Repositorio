@@ -1,3 +1,10 @@
 @import "./components/header";
+@import "./utilities/variables";
+@import "./utilities/media-query";
 @import "./pages/main-index";
-@import "./utilities/media-query"
+@import "./pages/main-charger";
+@import "./pages/main-boomer";
+@import "./pages/main-hunter";
+@import "./pages/main-tank";
+@import "./components/footer"
+
