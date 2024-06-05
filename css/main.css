@@ -23,36 +23,26 @@ body {
   border-radius: 5px;
 }
 
-header {
+.navbar {
+  background-color: black !important;
+}
+.navbar .container-fluid {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
-  background-color: black;
-  flex-wrap: wrap;
+  justify-content: space-between !important;
+  align-items: center !important;
 }
-header h1 a {
-  text-align: left;
-  color: white;
-  font-family: "Bebas Neue", sans-serif;
-  padding-left: 20px;
+.navbar .container-fluid img {
+  width: 150px;
+  height: 100%;
 }
-header img {
-  width: 90px;
-  height: 70px;
+.navbar .container-fluid .navbar-toggler {
+  background-color: white !important;
 }
-header nav ul {
-  display: flex;
-  list-style: none;
-  gap: 30px;
-  padding: 0 20px 0 0;
-  margin: 0;
+.navbar .collapse ul li a {
+  color: white !important;
 }
-header nav ul li a {
-  color: rgb(172, 236, 62);
-  text-decoration: none;
-  font-family: "Roboto";
+.navbar .collapse ul li a:hover {
+  color: greenyellow !important;
 }
 
 @media (max-width: 768px) {

@@ -1,32 +1,27 @@
-header{
-    @include flex(row, space-between, center);
-    padding: 10px;
-    background-color: black;
-    flex-wrap: wrap;
-    h1 a{
-        text-align: left;
-        color: white;
-        font-family: "Bebas Neue", sans-serif;
-        padding-left: 20px;
+.navbar {
+    background-color: black !important;
+    .container-fluid {
+        display: flex;
+        justify-content: space-between !important;
+        align-items: center !important;
+        img {
+            width: 150px;
+            height: 100%;
+        }
+        .navbar-toggler {
+            background-color: white !important;
+        }
     }
-    img {
-        width: 90px;
-        height: 70px;
-    }
-    nav {
+    .collapse {
         ul {
-            display: flex;
-            list-style: none;
-            gap: 30px;
-            padding: 0 20px 0 0;
-            margin: 0; 
             li {
                 a {
-                    color:rgb(172, 236, 62);
-                    text-decoration: none;
-                    font-family: "Roboto";
+                    color: white !important;
+                    &:hover {
+                        color: greenyellow !important;
+                    }
                 }
-            }      
+            }
         }
     }
 }
