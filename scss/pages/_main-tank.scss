@@ -11,11 +11,11 @@
     
      }
      .aspecto-tank{
+        text-align: center;
+        font-family: "Poppins"; 
         .p-green {
-            color: green;
-        
+            color: rgb(166, 243, 166);
         }
-       font-family: "Roboto"; 
      }
     }
     .tank-section {
@@ -25,16 +25,19 @@
         .tank-atack {
             display: flex;
             flex-direction: column;
+            justify-content: center;
             h2{
                 color: white;
             }
       
         }
         .tank-habilidades{
+            font-family: "Poppins";
+            text-align: center ;
             .p-red{
-                color:red;
+                color:rgb(248, 77, 77);
             }
-            font-family: "Roboto";
+            
         }
     }
   

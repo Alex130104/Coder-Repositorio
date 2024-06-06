@@ -1,7 +1,7 @@
 .main__index {
     background-color:rgb(0, 0, 0);
     color:white;
-    font-family: "Roboto" ;
+    font-family: "Poppins", sans-serif;
     .carousel-inner {
         background-color: black;
     }
@@ -31,19 +31,19 @@
     .infectados-raros{
         text-align: center;
         padding-top: 40px;
-        color: rgba(0, 128, 0, 0.616);
+        color: rgba(9, 247, 9, 0.616);
     }
     .section-infectados{
         display: flex;
         width: 100%;
         .div-infectados{
-            width: 50%;
-            height: 320px;
             img{
                 width: 12.5rem;
                 height: 100%;
                 mask-image: linear-gradient(rgb(0, 0, 0) 0%, transparent);
             }
+        }
+        .infectados-z {
         }
 .p-red {
     color: red;

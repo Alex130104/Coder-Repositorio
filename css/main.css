@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -5,13 +6,7 @@
 }
 
 body {
-  font-family: "Bebas Neue", sans-serif;
-}
-
-.roboto-bold {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-style: normal;
+  font-family: "Poppins", sans-serif !important;
 }
 
 .main__index .sintomas-container .sintomas-infeccion p {
@@ -32,11 +27,25 @@ body {
   align-items: center !important;
 }
 .navbar .container-fluid img {
-  width: 150px;
+  width: 100px;
   height: 100%;
 }
 .navbar .container-fluid .navbar-toggler {
   background-color: white !important;
+}
+.navbar .collapse {
+  justify-content: center;
+  align-items: center;
+}
+.navbar .collapse ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar .collapse ul li {
+  font-size: 1.25rem;
+  font-family: "Bebas Neue", sans-serif !important;
+  text-transform: uppercase;
 }
 .navbar .collapse ul li a {
   color: white !important;
@@ -132,7 +141,7 @@ body {
 .main__index {
   background-color: rgb(0, 0, 0);
   color: white;
-  font-family: "Roboto";
+  font-family: "Poppins", sans-serif;
 }
 .main__index .carousel-inner {
   background-color: black;
@@ -157,15 +166,11 @@ body {
 .main__index .infectados-raros {
   text-align: center;
   padding-top: 40px;
-  color: rgba(0, 128, 0, 0.616);
+  color: rgba(9, 247, 9, 0.616);
 }
 .main__index .section-infectados {
   display: flex;
   width: 100%;
-}
-.main__index .section-infectados .div-infectados {
-  width: 50%;
-  height: 320px;
 }
 .main__index .section-infectados .div-infectados img {
   width: 12.5rem;
@@ -336,10 +341,11 @@ body {
   color: white;
 }
 .main_tank .info-tank .aspecto-tank {
-  font-family: "Roboto";
+  text-align: center;
+  font-family: "Poppins";
 }
 .main_tank .info-tank .aspecto-tank .p-green {
-  color: green;
+  color: rgb(166, 243, 166);
 }
 .main_tank .tank-section {
   display: flex;
@@ -349,15 +355,17 @@ body {
 .main_tank .tank-section .tank-atack {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 .main_tank .tank-section .tank-atack h2 {
   color: white;
 }
 .main_tank .tank-section .tank-habilidades {
-  font-family: "Roboto";
+  font-family: "Poppins";
+  text-align: center;
 }
 .main_tank .tank-section .tank-habilidades .p-red {
-  color: red;
+  color: rgb(248, 77, 77);
 }
 
 footer {
